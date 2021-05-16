@@ -102,17 +102,7 @@ const HomeView = () => {
           </ScrollView>
 
           <FlatList
-          ItemSeparatorComponent={
-            Platform.OS !== 'android' &&
-            (({ highlighted }) => (
-              <View
-                style={[
-                  style.separator,
-                  highlighted && { marginLeft: 0 }
-                ]}
-              />
-            ))
-          }
+      
            horizontal={true}
            showsHorizontalScrollIndicator={false}
            data={travel} 
