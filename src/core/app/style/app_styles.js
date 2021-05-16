@@ -16,8 +16,14 @@ const mystyle = (props) => StyleSheet.create({
     width_100: {
         width: '100%'
     },
+    width_90_wid: {
+        width: Dimensions.get('window').width*.9
+    },
     height_10: {
         height: '10%'
+    },
+    height_100: {
+        height: '100%'
     },
     card_gradient_back: {
         height: '100%', borderRadius: 15, opacity: 0.4

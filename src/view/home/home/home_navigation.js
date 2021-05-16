@@ -11,7 +11,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 
 
 const Tab = createBottomTabNavigator();
-useGlobalStyles
+
 const HomeNavigation = () => {
     const mystyles = useGlobalStyles();
     return (

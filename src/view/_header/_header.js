@@ -8,7 +8,7 @@ import { TouchableOpacity } from 'react-native';
 const HeaderPartial = () => {
     const mystyles = useGlobalStyles();
     return (
-        <View style={[mystyles.flex_direction_row, mystyles.margin_all_20, mystyles.align_item_center, mystyles.justify_content_spacebetween]}>
+        <View style={[mystyles.flex_direction_row, mystyles.margin_horizontal_20,mystyles.margin_vertical_30, mystyles.align_item_center, mystyles.justify_content_spacebetween]}>
             <View style={[mystyles.flex_direction_row]}>
                 <Avatar
                     rounded
